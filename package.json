@@ -1,12 +1,12 @@
 {
-  "name": "@wufei90/react-native-image-resizer",
-  "version": "1.4.5",
+  "name": "@axplabs/react-native-image-resizer",
+  "version": "1.1.0",
   "description": "Rescale local images with React Native",
   "main": "./index.js",
   "types": "./index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wufei90/react-native-image-resizer.git"
+    "url": "git+https://github.com/wufei90/react-native-image-resizer.git"
   },
   "keywords": [
     "react-native",
@@ -33,5 +33,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example"
   }
 }
