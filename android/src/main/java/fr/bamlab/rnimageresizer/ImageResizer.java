@@ -212,7 +212,7 @@ public class ImageResizer {
             throw new IOException("The bitmap couldn't be resized");
         }
 
-        String compressFormatString = compressFormat.name();
+        String compressFormatString = compressFormat.name().toLowerCase();
 
         if (compressFormat.name() == "JPEG") {
             compressFormatString = "jpg";
