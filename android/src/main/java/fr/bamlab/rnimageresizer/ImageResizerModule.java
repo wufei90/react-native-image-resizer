@@ -61,7 +61,7 @@ public class ImageResizerModule extends ReactContextBaseJavaModule {
             @Override
             protected void doInBackgroundGuarded(Void... params) {
                 try {
-                    createResizedImageWithExceptions(imagePath, newWidth, newHeight, compressFormat, quality, rotation, outputPath, keepMeta, options, successCb, failureCb);
+                    createResizedImageWithExceptions(imagePath, newWidth, newHeight, compressFormat, quality, rotation, outputPath, imageName, keepMeta, options, successCb, failureCb);
                 }
                 catch (IOException e) {
                     failureCb.invoke(e.getMessage());
