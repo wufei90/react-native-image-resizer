@@ -32,6 +32,7 @@ if (Platform.OS === 'android') {
       quality,
       rotation = 0,
       outputPath,
+      imageName,
       keepMeta = false,
       options = {}
     ) => {
@@ -46,6 +47,7 @@ if (Platform.OS === 'android') {
           quality,
           rotation,
           outputPath,
+          imageName,
           keepMeta,
           validatedOptions,
           resolve,
@@ -64,6 +66,7 @@ if (Platform.OS === 'android') {
       quality,
       rotation = 0,
       outputPath,
+      imageName,
       keepMeta = false,
       options = {}
     ) => {
@@ -82,6 +85,7 @@ if (Platform.OS === 'android') {
           quality,
           rotation,
           outputPath,
+          imageName,
           keepMeta,
           validatedOptions,
           (err, response) => {

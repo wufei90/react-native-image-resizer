@@ -6,6 +6,7 @@ declare module 'react-native-image-resizer' {
     name: string;
     width: number;
     height: number;
+    imageName: string;
   }
 
   export type ResizeFormat = 'PNG' | 'JPEG' | 'WEBP';
@@ -20,6 +21,7 @@ declare module 'react-native-image-resizer' {
       quality: number,
       rotation?: number,
       outputPath?: string,
+      imageName?: string,
       keepMeta?: boolean,
       options?: {
         /** 
